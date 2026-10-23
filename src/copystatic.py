@@ -9,7 +9,7 @@ def copy_static_to_public():
     # Definisci le directory sorgente e destinazione
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     static_dir = os.path.join(project_root, "static")
-    public_dir = os.path.join(project_root, "public")
+    public_dir = os.path.join(project_root, "docs")
 
     # Elimina il contenuto della directory 'public' se esiste
     if os.path.exists(public_dir):
